@@ -133,7 +133,7 @@ while taking_commands:
             from_cht = Call_Chat_Gpt(query)
             speak(from_cht)
     elif "what is your name" in query or 'who are you' in query or 'who is speaking' in query:
-        speak('My name is Feeling. I am a personal assistant equipped with the latest version of Chat GPT.')
+        speak('My name is Saras. I am a personal assistant equipped with the latest version of Chat GPT.')
     else:
         speak('I am under development. Currently, those services are not available.')
 
